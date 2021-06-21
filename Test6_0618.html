@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Page Title</title>
+</head>
+<style>
+    div {
+        margin: 10px;
+    }
+</style>
+
+<body>
+
+    <form action="">
+        <label for="ID">사용자 ID : </label>
+        <input type="text" name="" id="" maxlength="6" required autofocus><br>
+        <input type="checkbox" name="program_lang" id="chk_h1" checked disabled>
+        <label for="chk_h1">드라마</label>
+        <input type="checkbox" name="program_lang" id="chk_h2">
+        <label for="chk_h2">영화</label>
+        <label><input type="checkbox" name="program_lang" id="">소설책</label>
+
+        <br><br>
+
+        <button type="button">조회</button>
+        <input type="button" value="저장">
+
+        <div>
+            <input type="color" name="" id="">
+        </div>
+
+        <div>
+            <input type="date" name="" id="">
+        </div>
+        <div>
+            <input type="datetime-local" name="" id="">
+        </div>
+        <div>
+            <label for="">이메일</label>
+            <input type="email" name="" id="" placeholder="abc@abc.com">
+            <input type="submit" value="보내기">
+        </div>
+        <div>
+            <input type="file" name="" id="" multiple>
+        </div>
+        <div>
+            <input type="month" name="" id="">
+        </div>
+        <div>
+            <input type="number" name="" id="">
+        </div>
+        <div>
+            <input type="password" name="" id="">
+        </div>
+        <div>
+            <input type="radio" name="rd_hobby" id="rdo_h1">
+            <label for="rdo_h1">드라마</label>
+            <input type="radio" name="rd_hobby" id="rdo_h2" value="movie" checked>
+            <label for="rdo_h2">영화</label>
+            <label><input type="radio" name="rd_hobby" id="">소설책</label>
+        </div>
+        <div>
+            <input type="range" name="" id="" min="50" max="100">
+        </div>
+        <div>
+            <input type="search" name="" id="">
+        </div>
+        <div>
+            <input type="tel" name="" id="" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+        </div>
+        <div>
+            <input type="time" name="" id="">
+        </div>
+        <div>
+            <input type="url" name="" id="" value="naver.com" readonly>
+        </div>
+        <div>
+            <input type="week" name="" id="">
+        </div>
+        <div>
+            <select name="dog" id="dog" multiple>
+                <option value="welsh corgi">웰시코기</option>
+                <option value="welsh corgi1">웰시코기1</option>
+                <option value="welsh corgi2">웰시코기2</option>
+                <option value="welsh corgi3">웰시코기3</option>
+                <option value="welsh corgi4">웰시코기4</option>
+                <option value="welsh corgi5">웰시코기5</option>
+            </select>
+        </div>
+        <div>
+            <input type="hidden" name="" value="A">
+        </div>
+        <div>
+            <textarea name="" id="" cols="30" style="width: 100%;" rows="10"></textarea>
+        </div>
+        <fieldset>
+            <legend>개인정보</legend>
+            <label for="username">이름: </label>
+            <input type="text" id="username" name="username"><br>
+            <label for="tel">전화: </label>
+            <input type="tel" name="" id="" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+            <input type="submit" value="저장">
+
+        </fieldset>
+        <div>
+            <input list="short dog">
+            <datalist id="short dog">
+                <option value="웰시코기">
+                <option value="닥스훈트">
+                <option value="바셋하운드">
+            </datalist>
+        </div>
+        <div><input list="short dog"></div>
+        <div><input list="short dog"></div>
+        <div>
+            <input type="image" src="/Dog/cogi.jpg" alt="웰시코기" width="300">
+        </div>
+        <!-- 이미지이자 내부적으로 버튼의 기능도 들어가있음 -->
+    </form>
+</body>
+
+</html>

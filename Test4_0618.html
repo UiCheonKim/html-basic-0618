@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>열차 시간표</title>
+    <style>
+        table {
+            text-align: center;
+            border-collapse: collapse;
+
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        tr:nth-child(1)>th:nth-child(3) {
+            background: blue;
+        }
+
+        tr:nth-child(2)>th:nth-child(1),
+        tr:nth-child(2)>th:nth-child(2) {
+            background: blue;
+        }
+
+        /* even 짝수 odd 홀수 */
+        tr>td:nth-child(n+3):nth-child(-n+4) {
+            background: blue;
+            text-align: right;
+        }
+
+        tr:nth-child(1)>th:nth-child(4) {
+            background: red;
+        }
+
+        tr:nth-child(2)>th:nth-child(3),
+        tr:nth-child(2)>th:nth-child(4) {
+            background: red;
+        }
+
+        tr>td:nth-child(n+5):nth-child(-n+6) {
+            background: red;
+            text-align: right;
+        }
+
+
+        /* tr>th:nth-child(3) {
+            background: blue;
+        } */
+    </style>
+</head>
+
+<body>
+    <p style="font-size: 30px">문제, 열차 시간표를 만드세요</p>
+    <table>
+        <tr>
+            <th rowspan="2">출발역</th>
+            <th rowspan="2">도착역</th>
+            <th colspan="2">현재운임</th>
+            <th colspan="2" style="width:300px;">2022년 중앙선 전 구간 개통시<br> 청량리~서원주 구간 '준고속 서비스'</th>
+        </tr>
+        <tr>
+            <th>일반실(A)</th>
+            <th>우등실</th>
+            <th>일반실(B)</th>
+            <th>우등실</th>
+
+        </tr>
+        <tr>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+        </tr>
+        <tr>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+        </tr>
+        <tr>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+        </tr>
+        <tr>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+        </tr>
+        <tr>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+        </tr>
+        <tr>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+        </tr>
+        <tr>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+            <td>안녕</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
